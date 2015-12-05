@@ -1,5 +1,5 @@
 {
-  "name": "@bhargavponnapalli/react-layouts",
+  "name": "react-layouts",
   "version": "0.0.2",
   "description": "React UI Library for Layouts",
   "main": "src/index.js",
