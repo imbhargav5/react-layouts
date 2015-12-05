@@ -3,7 +3,10 @@
   "version": "0.0.5",
   "description": "React UI Library for Layouts",
   "main": "lib/index.js",
-  "dependencies": {},
+  "dependencies": {
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3"
+  },
   "devDependencies": {
     "autoprefixer-loader": "^3.1.0",
     "babel": "^6.1.18",
