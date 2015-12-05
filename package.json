@@ -1,5 +1,5 @@
 {
-  "name": "react-layouts",
+  "name": "@bhargavponnapalli/react-layouts",
   "version": "0.0.1",
   "description": "React UI Library for Layouts",
   "main": "src/index.js",
@@ -40,14 +40,8 @@
     "url": "git+https://github.com/bhargav175/react-layouts.git"
   },
   "keywords": [
-    "React",
-    "React",
-    "UI",
-    "Material",
-    "UI",
-    "Kit",
-    "Susanoo"
-  ],
+      "layouts"
+   ],
   "author": "Bhargav Ponnapalli",
   "license": "MIT",
   "bugs": {
