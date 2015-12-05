@@ -2,11 +2,12 @@
   "name": "react-layouts",
   "version": "0.0.4",
   "description": "React UI Library for Layouts",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "dependencies": {},
   "devDependencies": {
     "autoprefixer-loader": "^3.1.0",
     "babel": "^6.1.18",
+    "babel-cli": "^6.3.13",
     "babel-core": "^6.2.1",
     "babel-loader": "^6.2.0",
     "babel-plugin-add-module-exports": "^0.1.1",
@@ -33,6 +34,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel ./src --out-dir ./lib",
     "dev": "webpack-dev-server -d --hot --eval --progress --colors"
   },
   "repository": {
