@@ -1,0 +1,57 @@
+{
+  "name": "react-layouts",
+  "version": "0.0.1",
+  "description": "React UI Library for Layouts",
+  "main": "src/index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer-loader": "^3.1.0",
+    "babel": "^6.1.18",
+    "babel-core": "^6.2.1",
+    "babel-loader": "^6.2.0",
+    "babel-plugin-add-module-exports": "^0.1.1",
+    "babel-plugin-syntax-export-extensions": "^6.1.18",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.2.0",
+    "babel-polyfill": "^6.2.0",
+    "babel-preset-es2015": "^6.1.18",
+    "babel-preset-react": "^6.1.18",
+    "babel-preset-stage-1": "^6.1.18",
+    "babel-preset-stage-3": "^6.1.18",
+    "css-loader": "^0.23.0",
+    "jest": "^0.1.40",
+    "jsdom": "^7.1.1",
+    "lodash": "^3.10.1",
+    "node-sass": "^3.4.2",
+    "postcss-loader": "^0.8.0",
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3",
+    "react-hot-loader": "^1.3.0",
+    "sass-loader": "^3.1.2",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server -d --hot --eval --progress --colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhargav175/react-layouts.git"
+  },
+  "keywords": [
+    "React",
+    "React",
+    "UI",
+    "Material",
+    "UI",
+    "Kit",
+    "Susanoo"
+  ],
+  "author": "Bhargav Ponnapalli",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bhargav175/react-layouts/issues"
+  },
+  "homepage": "https://github.com/bhargav175/react-layouts#readme"
+}
