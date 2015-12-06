@@ -22,6 +22,7 @@
     "babel-preset-stage-1": "^6.1.18",
     "babel-preset-stage-3": "^6.1.18",
     "css-loader": "^0.23.0",
+    "extract-text-webpack-plugin": "^0.9.1",
     "jest": "^0.1.40",
     "jsdom": "^7.1.1",
     "lodash": "^3.10.1",
@@ -38,7 +39,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "babel ./src --out-dir ./lib",
+    "build": "rm -rf lib && babel ./src --out-dir ./lib",
+    "docs": "npm run build && webpack --config webpack.production.config.js --progress --colors ",
     "dev": "webpack-dev-server -d --hot --eval --progress --colors"
   },
   "repository": {
