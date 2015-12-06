@@ -1,6 +1,6 @@
 {
   "name": "react-layouts",
-  "version": "0.0.13",
+  "version": "0.1.0",
   "description": "React UI Library for Layouts",
   "main": "lib/index.js",
   "dependencies": {
