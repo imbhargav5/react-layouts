@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Layouts from '../src/index';
+import Layouts from '../lib/index';
 import babel_polyfill from 'babel-polyfill';
 
 let { FlexBox, FlexItem} = Layouts;
