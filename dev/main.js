@@ -7,7 +7,7 @@ import reactElementToJSXString from 'react-element-to-jsx-string';
 
 require('./style.scss');
 
-let { FlexBox, FlexItem} = Layouts;
+const { FlexBox, FlexItem} = Layouts;
 
 const colors = {
    		blue : '#5677fc',

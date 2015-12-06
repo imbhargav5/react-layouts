@@ -2,7 +2,7 @@
  * Flex Item
  */
 import React from 'react';
-export default class FlexBox extends React.Component{ 
+export default class FlexItem extends React.Component{ 
 	render(){
 
 	 let {style,flexVal} = this.props;
