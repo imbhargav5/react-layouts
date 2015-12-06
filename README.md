@@ -1,6 +1,9 @@
 # react-layouts
 React UI Layout Library
 
+Docs - http://bhargav175.github.io/react-layouts/
+
+
 Create Flexboxes easily using Flexbox and FlexItem elements which bring inline styles into play and expose a style prop to customize.
 
 
