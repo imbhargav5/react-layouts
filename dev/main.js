@@ -4,6 +4,7 @@ import ReactDOMServer from 'react-dom/server';
 import Layouts from '../src/index';
 import babel_polyfill from 'babel-polyfill';
 import reactElementToJSXString from 'react-element-to-jsx-string';
+import reactToJsx from 'react-to-jsx';
 
 require('./style.scss');
 
@@ -28,12 +29,12 @@ const colors = {
 
 class MainSection extends React.Component{
 	render(){
-			let {heading} = this.props;
+			const {heading} = this.props;
     		 return <div className='main-section'> 
 		     			<h3 className='main-section__title'>{heading || ''}</h3> 
 		     			<div className='main-section__body'> {this.props.children}</div>
 		     			<pre className='main-section__src'>
-		     				{reactElementToJSXString(this.props.children)}
+		     				{reactToJsx(this.props.children)}
 		     			</pre>
 		     		</div>;
 	}	
@@ -47,7 +48,8 @@ class MainSection extends React.Component{
  */
 class Main extends React.Component{
    render(){
-     
+
+
      let section1 =  <FlexBox  flexDirection='row' flexWrap='nowrap' style={{
 				     	height:'100px',
 				     	backgroundColor:colors.greyLight,
@@ -58,9 +60,10 @@ class Main extends React.Component{
 					     	<FlexItem  style={{ background :  colors.teal }}/>
 				     </FlexBox>;
 
+
     let section2 = 	<FlexBox style={{
 				     	marginTop:'10px',
-				     	height:400
+				     	height:'400'
 				     }} flexDirection='column' >
 				     	<FlexItem style={{ background :  colors.orange}}/>
 				     	<FlexItem style={{ background :  colors.pink }}/>
@@ -69,12 +72,12 @@ class Main extends React.Component{
 
 	const section3  = 	  <FlexBox style={{
 				     	marginTop:'10px',
-				     	height:400
+				     	height:'400'
 				     }} flexDirection='row'>
 				     	<FlexItem >
 
 							    <FlexBox style={{
-							     	height:400
+							     	height:'400'
 							     }}  flexDirection ='column' >
 							     	<FlexItem style={{ background :  colors.indigo}}/>
 							     	<FlexItem style={{ background :  colors.greyLight }}/>
@@ -84,7 +87,9 @@ class Main extends React.Component{
 				     	</FlexItem>
 				     	<FlexItem style={{ background :  colors.orange}}/>
 				     	<FlexItem style={{ background :  colors.yellow }}/>
-				     </FlexBox>;	     			     
+				     </FlexBox>;	     		
+				     
+
 
      return <div className="main">
      			 <section className="how-to-use">
