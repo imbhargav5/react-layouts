@@ -1,0 +1,23 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node/5.1.0/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'run',
+1 verbose cli   'docs' ]
+2 info using npm@3.5.0
+3 info using node@v5.1.0
+4 verbose stack Error: ENOENT: no such file or directory, open '/front_end_web_dev/Documentations/react-layouts/package.json'
+4 verbose stack     at Error (native)
+5 verbose cwd /front_end_web_dev/Documentations/react-layouts
+6 error Darwin 15.0.0
+7 error argv "/usr/local/Cellar/node/5.1.0/bin/node" "/usr/local/bin/npm" "run" "docs"
+8 error node v5.1.0
+9 error npm  v3.5.0
+10 error path /front_end_web_dev/Documentations/react-layouts/package.json
+11 error code ENOENT
+12 error errno -2
+13 error syscall open
+14 error enoent ENOENT: no such file or directory, open '/front_end_web_dev/Documentations/react-layouts/package.json'
+15 error enoent ENOENT: no such file or directory, open '/front_end_web_dev/Documentations/react-layouts/package.json'
+15 error enoent This is most likely not a problem with npm itself
+15 error enoent and is related to npm not being able to find a file.
+16 verbose exit [ -2, true ]
