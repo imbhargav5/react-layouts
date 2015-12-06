@@ -19970,16 +19970,16 @@
 	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                * Flex Item
 	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                */
 
-	var FlexBox = (function (_React$Component) {
-		_inherits(FlexBox, _React$Component);
+	var FlexItem = (function (_React$Component) {
+		_inherits(FlexItem, _React$Component);
 
-		function FlexBox() {
-			_classCallCheck(this, FlexBox);
+		function FlexItem() {
+			_classCallCheck(this, FlexItem);
 
-			return _possibleConstructorReturn(this, Object.getPrototypeOf(FlexBox).apply(this, arguments));
+			return _possibleConstructorReturn(this, Object.getPrototypeOf(FlexItem).apply(this, arguments));
 		}
 
-		_createClass(FlexBox, [{
+		_createClass(FlexItem, [{
 			key: "render",
 			value: function render() {
 				var _props = this.props;
@@ -19998,10 +19998,10 @@
 			}
 		}]);
 
-		return FlexBox;
+		return FlexItem;
 	})(_react2.default.Component);
 
-	exports.default = FlexBox;
+	exports.default = FlexItem;
 	;
 	module.exports = exports['default'];
 
