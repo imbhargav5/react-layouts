@@ -28,12 +28,11 @@ const colors = {
 
 class MainSection extends React.Component{
 	render(){
-			console.log(this.props);
 			let {heading} = this.props;
-    		 return <div className='section'> 
-		     			<h1 className='section__title'>{heading || ''}</h1> 
-		     			<div className='section__body'> {this.props.children}</div>
-		     			<pre className='section__src'>
+    		 return <div className='main-section'> 
+		     			<h3 className='main-section__title'>{heading || ''}</h3> 
+		     			<div className='main-section__body'> {this.props.children}</div>
+		     			<pre className='main-section__src'>
 		     				{reactElementToJSXString(this.props.children)}
 		     			</pre>
 		     		</div>;
@@ -88,16 +87,28 @@ class Main extends React.Component{
 				     </FlexBox>;	     			     
 
      return <div className="main">
-			     <MainSection heading="Flex Row">
-				    	{section1}
-			     </MainSection>
-			    <MainSection heading="Flex Column" >
-				     {section2}
-			     </MainSection>
+     			 <section className="how-to-use">
+				    	<h1 className="how-to-use__h1"> How To Use </h1>
+				    	<pre className="how-to-use__pre">
+				    		import Layouts from '../src/index';<br/>
+     			 	        let FlexBox = Layouts.FlexBox, FlexItem = Layouts.FlexItem;
+				    	</pre>
+			     </section>
+			     <section>
+					<h1> Examples </h1>
+					 <MainSection heading="Flex Row">
+					    	{section1}
+					 </MainSection>
+					<MainSection heading="Flex Column" >
+					     {section2}
+					 </MainSection>
 
-			      <MainSection heading="Flex Nested">
-				   	{section3}
-			     </MainSection>
+					  <MainSection heading="Flex Nested">
+					   	{section3}
+					 </MainSection>
+			     </section>
+			     
+			     
 		    </div>;
    }
 };

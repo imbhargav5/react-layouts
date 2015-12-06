@@ -26,11 +26,25 @@ body{
 	}
 
 .main{
-	
+	 padding: 0 24px;
 }
 
-.section{
+.how-to-use__h1{
+         margin: 15px 0 ;
+
+}
+.how-to-use__pre{
   padding:20px 24px;
+    background: #334;
+    color:white;
+}
+
+section{
+   padding:40px 0;
+}
+
+.main-section{
+  padding:20px 0;
 	&__title{
       margin: 15px 0 ;
 	}
