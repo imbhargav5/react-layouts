@@ -48,7 +48,12 @@
     "url": "git+https://github.com/bhargav175/react-layouts.git"
   },
   "keywords": [
-    "layouts"
+    "layouts",
+    "react",
+    "react-layouts",
+    "react-ui",
+    "components",
+    "react-components"
   ],
   "author": "Bhargav Ponnapalli",
   "license": "MIT",
