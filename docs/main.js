@@ -90,7 +90,7 @@ class Main extends React.Component{
      			 <section className="how-to-use">
 				    	<h1 className="how-to-use__h1"> How To Use </h1>
 				    	<pre className="how-to-use__pre">
-				    		import Layouts from '../src/index';<br/>
+				    		import Layouts from 'react-layouts/lib/index';<br/>
      			 	        let FlexBox = Layouts.FlexBox, FlexItem = Layouts.FlexItem;
 				    	</pre>
 			     </section>
