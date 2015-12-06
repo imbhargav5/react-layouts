@@ -9,7 +9,7 @@ module.exports = {
     entry :  {
         bundle : ['webpack-dev-server/client?http://0.0.0.0:8080', // WebpackDevServer host and port
             'webpack/hot/only-dev-server',
-           './dev/main.js'],
+           './docs/main.js'],
         vendor :['react','lodash','react-dom']
     },
     output: {
@@ -26,7 +26,7 @@ module.exports = {
                 test: /.jsx?$/,
                 loaders: ['react-hot','babel'],
                 include: [path.resolve(__dirname, "src"),
-                path.resolve(__dirname, "dev")]
+                path.resolve(__dirname, "docs")]
             }, {
                 test: /\.scss$/,
                 loader: sassLoaders.join("!")
